@@ -19,11 +19,11 @@ class Swarm:
                 particle.move();
 
                 if plane == 1:
-                    fitness = pow(particle.x[0], 2) + pow(particle.x[1], 2) # function x^2 + y^2 => (0) [0,0]
+                    fitness = (particle.x[0])**2 + (particle.x[1])**2 # function x^2 + y^2 => (0) [0,0]
                 elif plane == 2:
-                    fitness = pow(particle.x[0], 3) + pow(particle.x[1], 3) - 12*particle.x[0]*particle.x[1] # x^3 + y^3 - 12xy => (-64) [4, 4]
+                    fitness = (particle.x[0])**3 + (particle.x[1])**3 - 12*particle.x[0]*particle.x[1] # x^3 + y^3 - 12xy => (-64) [4, 4]
                 elif plane == 3:
-                    fitness = pow(particle.x[0] - 3.14, 2) + pow(particle.x[1] - 2.72, 2) + sin(3*particle.x[0] + 1.41) + sin(4*particle.x[1] - 1.73)
+                    fitness = (particle.x[0] - 3.14)**2 + (particle.x[1] - 2.72)**2 + sin(3*particle.x[0] + 1.41) + sin(4*particle.x[1] - 1.73)
                 
                 particle.update_fitness(fitness)
             iteration += 1
