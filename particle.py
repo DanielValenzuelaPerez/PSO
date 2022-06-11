@@ -10,7 +10,7 @@ class Particle:
 
         self.w = 0.8
         self.r = [random(), random()]
-        self.c = [0.1, 0.1]
+        self.c = [0.1, 0.2]
 
         self.personal_best_fitness = None
         self.personal_best_position = self.x.copy()
