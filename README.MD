@@ -17,7 +17,7 @@ Function 1 | Function 2 |  Function 3
 -- | - | -
 x^2 + y^2 | x^3 + y^3 - 12xy | (x - 3.14)^2 + (y - 2.72)^2 + sin(3x + 1.41) + sin(4y - 1.74)
 ![image](https://user-images.githubusercontent.com/101780195/173254247-7b35dbb1-6ac1-4827-b965-cb1c8b1df44b.png) | ![image](https://user-images.githubusercontent.com/101780195/173254264-21fb3381-3c55-4130-8cd1-153234984503.png) | ![image](https://user-images.githubusercontent.com/101780195/173254237-66cdc865-96fd-44a0-b03c-670019b53b35.png)
-Minimia: 0 | Minimia: -64  | Minimia: -1.81
+Minima: 0 | Minima: -64  | Minima: -1.81
 Position: <0, 0> | Position: <4, 4> | Position: <3.18, 3.13>
 ### How to use
 
